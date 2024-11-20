@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"video-game" ;
+    src: url(fonts/video\ games.ttf);
+}
+
+@font-face {
+    font-family: "logo";
+    src: url(fonts/RifficFree-Bold.ttf);
+}
+
+@font-face {
+    font-family: "text";
+    src: url(fonts/Cocogoose-Classic-Medium-trial.ttf);
+}
+
+.container {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bloco-icon {
+    height: 35px;
+}
+
+.bloco-icon img{
+    margin-left: 20px;
+}
+
+header h1{
+    font-size: 50px;
+    font-family: "logo";
+    text-decoration: underline;
+    text-decoration-color: white;
+    
+}
+
+header h3{
+    font-family: "video-game";
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.bloco-logo{
+    align-items: center;
+
+}
+
+header{
+    padding-top: 30px;
+    background-color: #b3c9c1;
+    height: 150px;
+    color: #190a12;
+    position: sticky;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.616);
+    z-index: 10; /* Garantir que o header fique acima de outros elementos */
+
+}
+
+header .bloco-logo,
+img:hover{
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link{
+    font-size: 20px;
+    text-align: center;
+    font-family: "text";
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+    background-color: #190a12;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+section{
+    padding-top: 150px;
+}
+
+body {
+    background-color: #cec7b6;
+}
+
+#carousel-ex img{
+    border: 2px solid white;
+    margin-top: 150px; /* Evita que o carousel sobreponha o header */
+}
+
+#Jogos {
+    padding-top: 50px; /* Ajuste o padding para que o conteúdo da seção não sobreponha o carousel */
+    padding-bottom: 50px; /* Garantir que a seção de jogos tenha um espaçamento adequado */
+    border: 2px solid white;
+}
+
+.menu-jogo h3{
+    text-align: left;
+    margin-top: 15px;
+    font-family: "text";
+    font-size: 28px;
+}
+
+
+.menu-jogo p{
+    font-family: "text";
+    font-size: 1em;
+    text-align: left;
+}
+
+#Jogos h3:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+}
+
+#Jogos h2{
+    font-family: "logo";
+    font-size: 30px;
+    font-size: 40px;
+    margin: 20px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #190a12 ;
+}
+
+#Jogos h2:hover{
+    color: #190a12;
+    text-decoration: underline;
+    text-decoration-color:white ;
+}
+
+#Jogos .mini-logo,
+h3, p{
+    margin: 20px;
+    text-align: center;
+}
+.container-carousel {
+    z-index: 1; /* Garante que o carousel não sobreponha outras seções, caso necessário */
+}
+
+.row img{
+    border: 2px solid #190a12 ;
+}
+
+
+
+.borda {
+    border: 2px solid white;
+}
+
+.borda2{
+    border-left: none;
+}
+
+.bloco-noticias {
+   text-align: center;
+}
+
+.bloco-noticias button{
+    color: #5A5239;
+}
+
+.fundo-bloco-form{
+    background-color: rgba(255, 255, 255, 0.589);
+    text-align: center;
+}
+
+.container-form {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    resize: none;
+}
+
+.container-form, textarea,
+label, input{
+    margin-bottom: 10px;
+}
+
+.container-form input{
+    border: 1px solid #190a12 ;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.parte-explicativa h2{
+    margin-top: 50px;
+}
+
+.parte-explicativa span:hover{
+    color:white;
+}
+
+.texto-card{
+    text-align: center;
+}
+
+#Contato{
+    border: 2px solid white;
+}
+
+.container-card{
+    margin-bottom: 100px;
+}
+
+.fundo-bloco-form,.texto-card{
+    border: 1px solid #190a12;
+    border-radius: 5px;
+}
