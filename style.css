@@ -221,3 +221,69 @@ label, input{
     border: 1px solid #190a12;
     border-radius: 5px;
 }
+
+
+@media screen and (max-width:500px) {
+    header h1{
+        font-size: 20px;
+    }
+    header h3{
+        font-size: 20px;
+    }
+
+    .bloco-icon img{
+        height: 50%;
+    }
+
+    #menu a{
+        font-size: 10px;
+    }
+
+    #menu span{
+        width: 50%;
+    }
+
+    .container-carousel img{
+        height: 20%;
+    }
+
+    #Jogos h2{
+        font-size: 25px;
+    }
+
+    #Jogos h3{
+        font-size: 15px;
+    }
+
+    #Jogos p{
+        font-size: 10px;
+    }
+
+    .borda {
+        border: none;
+    }
+
+    .mini-logo{
+        height: 100px;
+    }
+
+    .img-noti {
+        width: 300px;
+    }
+
+    .bloco-noticias h3{
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .bloco-noticias p{
+        text-align: left;
+        font-size: 10px;
+    }
+
+    #Jogos button{
+        font-size: 10px;
+        text-align: left;
+    }
+
+}
